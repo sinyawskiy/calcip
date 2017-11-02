@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Калькулятор IP адресов</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Online IP Calculator">
+    <meta name="author" content="">
+    <meta name="keywords" content="IP, Network, Net, SubNet, NetMask, Mask, Calc, Calculator, Калькулятор, IPcalc, Lancalc, Адрес, Interface,  Config, BGP, OSFP, IPv4, IPv6, Кальк, Lan, MAC, Генератор">
+    <meta name="yandex-verification" content="622570eb4d8f29ef">
+    <meta name="google-site-verification" content="n0aruG8nsBg4nbZAre6yupSptKlvKnAqt_DnnX2Ppxo">
+    <link rel="shortcut icon" href="static/favicon.ico">
+    <link href="static/css/calcip.min.css" rel="stylesheet" type="text/css" media="screen, projection">
+<body>
+<div id="wrap">
+    <div class="container">
+        <div class="row">
+            <div class="span3 sidebar">
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active" id="ip_button"><a href="javascript:void(0);">Калькулятор IPv4 адресов</a></li>
+                    <li id="mac_button"><a href="javascript:void(0);">Генератор MAC адресов</a></li>
+                </ul>
+            </div>
+            <div class="span9">
+                <div class="container" id="ip_container">
+                    <div class="page-header">
+                        <h1>Калькулятор IPv4 адресов</h1>
+                    </div>
+                    <form class="form-inline" id="ip_form">
+                        <input id="ip" type="text" class="input-xlarge" placeholder="IPv4 адрес (пробел сетевая маска)" autocomplete="off"><span class="slash"> / </span><input id="cidr" type="text" class="input-large" placeholder="CIDR">
+                    </form>
+                </div>
+                <div class="container" id="mac_container" style="display:none;">
+                    <div class="page-header">
+                        <h1>Генератор MAC адресов</h1>
+                    </div>
+                    <form class="form-inline" id="mac_form">
+                        <button class="btn btn-primary" id="mac">Сгенерировать MAC адрес</button>
+                        <div class="input-prepend mac">
+                            <span class="add-on">Разделитель</span>
+                            <input id="mac_separator" type="text" class="input-small" value=":">
+                        </div>
+                        <button class="btn mac" id="mac_clear">Очистить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="push"></div>
+</div>
+<div id="footer">
+    <div class="container">
+        <p class="muted credit">Сделано <a href="mailto:sinyawskiy@gmail.com?subject=calcip.ru">Синявским</a></p>
+    </div>
+</div>
+<!--<script type="text/javascript" src="static/js/jquery-1.7.min.js" charset="utf-8"></script>-->
+<!--<script type="text/javascript" src="static/js/jquery.autocomplete.js" charset="utf-8"></script>-->
+<!--<script type="text/javascript" src="static/js/underscore-min.js" charset="utf-8"></script>-->
+<!--<script type="text/javascript" src="static/bootstrap/js/bootstrap.js" charset="utf-8"></script>-->
+<!--<script type="text/javascript" src="static/js/calcip_core.js" charset="utf-8"></script>-->
+<!--<script type="text/javascript" src="static/js/calcip.js" charset="utf-8"></script>-->
+
+<script type="text/javascript" src="static/js/calcip.min.js" charset="utf-8"></script>
+<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23248360 = new Ya.Metrika({id:23248360, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/23248360" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+<script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-46150914-1']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Калькулятор IP адресов</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Online IP Calculator">
+    <meta name="author" content="ALS">
+    <meta name="keywords" content="IP, Network, Net, SubNet, NetMask, Mask, Calc, Calculator, Калькулятор, IPcalc, Lancalc, Адрес, Interface, Config, BGP, OSFP, IPv4, IPv6, Кальк, Lan, MAC, Генератор, Base64">
+    <meta name="google-site-verification" content="n0aruG8nsBg4nbZAre6yupSptKlvKnAqt_DnnX2Ppxo">
+    <meta name='yandex-verification' content='76df8bda9a53b46c' />
+    <link rel="shortcut icon" href="static/img/favicon.ico">
+    <link href="static/css/calcip.min.css" rel="stylesheet" type="text/css" media="screen, projection">
+    <!--<link href="static/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen, projection">-->
+    <!--<link href="static/css/calcip.css" rel="stylesheet" type="text/css" media="screen, projection">-->
+</head>
+<body>
+<div id="wrap">
+    <div class="container">
+        <div class="row">
+            <div class="span3 sidebar">
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active" id="ip_button"><a href="javascript:void(0);" title="Калькулятор IPv4 адресов">Калькулятор IPv4 адресов</a></li>
+                    <li id="mac_button"><a href="javascript:void(0);" title="Генератор MAC адресов">Генератор MAC адресов</a></li>
+                    <li id="base64_button"><a href="javascript:void(0);" title="Base64 конвертер">Base64 конвертер</a></li>
+                    <li id="htpasswd_button"><a href="javascript:void(0);" title="Создание файла .htpasswd">Создание файла .htpasswd</a></li>
+                    <li id="password_button"><a href="javascript:void(0);" title="Генератор паролей">Генератор паролей</a></li>
+                    <li id="timestamp_button"><a href="javascript:void(0);" title="Timestamp конвертор">Timestamp конвертор</a></li>
+                </ul>
+		    <div id="ip_address"></div>
+            </div>
+            <div class="span9">
+                <div class="container" id="ip_container">
+                    <div class="page-header span8">
+                        <h1>Калькулятор IPv4 адресов</h1>
+                    </div>
+                    <div class="fb span1"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcalcip.ru%2F"><img src="/static/img/fb_like_icon.svg" title="Я рекомендую"></a></div>
+                    <form class="form-inline" id="ip_form">
+                        <input id="ip" type="text" class="input-xlarge" placeholder="IPv4 адрес (пробел сетевая маска)" autocomplete="off"><span class="slash"> / </span><input id="cidr" type="text" class="input-large" placeholder="CIDR">
+                        <div class="btn disabled" id="last">&larr;сюда</div>
+                        <div class="btn disabled" id="next">туда&rarr;</div>
+                    </form>
+                </div>
+                <div class="container" id="mac_container" style="display:none;">
+                    <div class="page-header span8">
+                        <h1>Генератор MAC адресов</h1>
+                    </div>
+                    <div class="fb span1"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcalcip.ru%2F"><img src="/static/img/fb_like_icon.svg" title="Я рекомендую"></a></div>
+                    <form class="form-inline" id="mac_form">
+                        <div class="input-prepend mac input-append">
+                            <span class="add-on">Разделитель</span>
+                            <input id="mac_separator" type="text" class="input-small" value=":">
+                            <div class="btn mac" id="mac_clear">Очистить</div>
+                        </div>
+                        <div class="btn btn-primary" id="mac">Сгенерировать MAC адрес</div>
+                    </form>
+                </div>
+                <div class="container" id="base64_container" style="display:none;">
+                    <div class="page-header span8">
+                        <h1>Base64 конвертер</h1>
+                    </div>
+                    <div class="fb span1"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcalcip.ru%2F"><img src="/static/img/fb_like_icon.svg" title="Я рекомендую"></a></div>
+                    <form class="form-inline" id="base64_form">
+                        <textarea id="base64_source" rows="4" class="span9" placeholder="Введите текст"></textarea>
+                        <div class="span9">
+                            <label class="radio inline"><input type="radio" id="base64_mode_encode" name="base64_mode" value="encode" checked>Текст&rarr;Base64</label>
+                            <label class="radio inline"><input type="radio" id="base64_mode_decode" name="base64_mode" value="decode">Base64&rarr;Текст</label>
+                            <div class="btn inline" id="base64_exchange" title="Поменять местами">&uarr; &darr;</div>
+                            <div class="btn btn-primary inline" id="base64">Конвертировать</div>
+                        </div>
+                        <textarea id="base64_result" maxlength="10" rows="4" class="span9" disabled="disabled" placeholder="Результат"></textarea>
+                    </form>
+                </div>
+                <div class="container" id="htpasswd_container" style="display:none;">
+                    <div class="page-header span8">
+                        <h1>Создание файла .htpasswd</h1>
+                    </div>
+                    <div class="fb span1"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcalcip.ru%2F"><img src="/static/img/fb_like_icon.svg" title="Я рекомендую"></a></div>
+                    <form class="form-inline" id="htpasswd_form">
+                        <div class="span9 htpasswd">
+                            <input id="htpasswd_login" type="text" class="input-large" placeholder="Логин" autocomplete="off">
+                            <input id="htpasswd_password" type="text" class="input-large" placeholder="Пароль" autocomplete="off">
+                            <select id="htpasswd_algorythm" class="input-large">
+                                <option value="" selected="selected">Выберите алгоритм</option>
+                                <option value="plain">Plain Text / No hashing</option>
+                                <option value="sha1">SHA1 sum in base64</option>
+                                <option value="ssha1">SHA1 salted sum in base64</option>
+                                <option value="md5">MD5</option>
+                                <option value="crypt">crypt</option>
+                            </select>
+                        </div>
+                        <div class="span9">
+                            <div class="btn btn-primary" id="htpasswd">Создать файл .htpasswd</div>
+                            <div class="btn" id="htpasswd_clear">Очистить</div>
+                        </div>
+                    </form>
+                    <div class="span9 htpasswd-result">
+                        <strong>Результат</strong>
+                    </div>
+                    <div id="htpasswd_result" class="span9 htpasswd-result" title="Результат htpasswd">-</div>
+                </div>
+                <div class="container" id="password_container" style="display:none;">
+                    <div class="page-header span8">
+                        <h1>Генератор паролей</h1>
+                    </div>
+                    <div class="fb span1"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcalcip.ru%2F"><img src="/static/img/fb_like_icon.svg" title="Я рекомендую"></a></div>
+                    <form class="form-inline" id="passwd_form">
+                        <div class="span9 password">
+                            <select id="password_type" class="input-large">
+                                <option value="1" selected="selected">Сложный</option>
+                                <option value="2">Запоминаемый</option>
+                            </select>
+                            <input name="password_length" type="number" class="input-small" placeholder="Длина пароля" autocomplete="off" min="4" value="15">
+                        </div>
+                        <div class="span9 password">
+                            <label class="checkbox"><input name="similar" type="checkbox" checked="checked">Убрать похожие символы</label>
+                        </div>
+                        <div class="span9 password">
+                            <label class="checkbox"><input name="lowercase" type="checkbox">Только нижний регистр</label>
+                        </div>
+                        <div class="span9 password">
+                            <label class="checkbox"><input name="cyrillic" type="checkbox">Добавить кирилицу</label>
+                        </div>
+                        <div class="span9 password" data-type="2" style="display:none;">
+                            <label class="checkbox"><input name="number_to_right" type="checkbox" checked="checked">Цифры справа</label>
+                        </div>
+                        <div class="span9 password" data-type="2" style="display:none;">
+                            <label>Длина цифровой части</label> <input name="number_length" type="number" class="input-small" placeholder="Длина цифровой части" autocomplete="off" value="5">
+                        </div>
+                        <div class="span9 password" data-type="1">
+                            <label class="checkbox"><input name="digits" type="checkbox" checked="checked">Цифры</label>
+                        </div>
+                        <div class="span9 password" data-type="1">
+                            <label class="checkbox"><input name="punctuation" type="checkbox" checked="checked">Знаки пунктуации</label>
+                        </div>
+                        <div class="span9 password">
+                            <input name="password_alpha" type="text" class="input-xxlarge" placeholder="Парольный алфавит" autocomplete="off">
+                        </div>
+                        <div class="span9">
+                            <div class="btn btn-primary" id="password">Создать пароли</div>
+                            <label class="checkbox"><input name="phonetic" type="checkbox">Фонетический алфавит</label>
+                        </div>
+                    </form>
+                    <div id="password_result" class="span9 password-result" title="Сгенерированные пароли"></div>
+                </div>
+                <div class="container" id="timestamp_container" style="display:none;">
+                    <div class="page-header span8">
+                        <h1>Timestamp конвертор</h1>
+                        <p>Количество секунд с начала UNIX эпохи 1.1.1970</p>
+                    </div>
+                    <div class="fb span1"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcalcip.ru%2F"><img src="/static/img/fb_like_icon.svg" title="Я рекомендую"></a></div>
+                    <form class="form-inline" id="base64_form">
+                        <textarea id="timestamp_source" rows="4" class="span9" placeholder="Введите текст"></textarea>
+                        <div class="span9">
+                            <label class="radio inline"><input type="radio" id="timestamp_mode_encode" name="timestamp_mode" value="encode" checked>Timestamp&rarr;Время</label>
+                            <label class="radio inline"><input type="radio" id="timestamp_mode_decode" name="timestamp_mode" value="decode">Время (ГГГГ-ММ-ДД ЧЧ:мм:cc)&rarr;Timestamp</label>
+                            <div class="btn inline" id="timestamp_exchange" title="Поменять местами">&uarr; &darr;</div>
+                            <div class="btn btn-primary inline" id="timestamp">Конвертировать</div>
+                        </div>
+                        <textarea id="timestamp_result" maxlength="10" rows="4" class="span9" disabled="disabled" placeholder="Результат"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="push"></div>
+</div>
+<div id="footer">
+    <div class="container">
+        <a class="pull-left" href="http://www.wwf.ru/src.ban.wwfruban.arctic.760x90/_adv_gate/239"><img src="/static/img/banner.jpg" width="505" height="60" border="0" alt="WWF Russia. "></a>
+        <p class="muted credit pull-right">Сделано <a href="http://sinyawskiy.ru">ALS</a></p>
+    </div>
+</div>
+<!--<script type="text/javascript" src="static/js/jquery-2.1.1.js" charset="utf-8"></script>-->
+<!--<script type="text/javascript" src="static/js/jquery.autocomplete.js" charset="utf-8"></script>-->
+<!--<script type="text/javascript" src="static/js/underscore-min.js" charset="utf-8"></script>-->
+<!--<script type="text/javascript" src="static/bootstrap/js/bootstrap.js" charset="utf-8"></script>-->
+<!--<script type="text/javascript" src="static/js/calcip_core.js" charset="utf-8"></script>-->
+<!--<script type="text/javascript" src="static/js/calcip.js" charset="utf-8"></script>-->
+
+<script type="text/javascript" src="static/js/calcip.min.js" charset="utf-8"></script>
+<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23248360 = new Ya.Metrika({id:23248360, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/23248360" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+<script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-46150914-1']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>
+</body>
+</html>

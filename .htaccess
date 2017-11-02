@@ -1,0 +1,29 @@
+#Turns the rewrite engine on.
+RewriteEngine On
+RewriteCond %{HTTP:Accept-encoding} gzip
+RewriteCond %{REQUEST_FILENAME}\.gz -s
+RewriteRule ^(.*)\.(css|js) $1\.$2\.gz [QSA]
+
+#Fix missing trailing slash character on folders.
+RewriteRule ^([^.?]+[^.?/])$ $1/ [R,L]
+
+# Prevent double gzip and give the correct mime-type
+RewriteRule \.css\.gz$ - [T=text/css,E=no-gzip:1,E=FORCE_GZIP]
+RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1,E=FORCE_GZIP]
+
+Header set Content-Encoding gzip env=FORCE_GZIP
+
+# Cache control
+<IfModule mod_expires.c>
+# Enable expirations
+ExpiresActive On
+# Default directive
+ExpiresDefault "access plus 1 month"
+# My favicon
+ExpiresByType image/x-icon "access plus 1 year"
+</IfModule>
+
+# www.infon.su and infon.su will map to the folder
+{root}/infon.su/
+RewriteCond %{HTTP:Host} ^(?:www\.)?infon\.su$
+RewriteRule (.*) /infon.su/$1 [NC,L,NS]

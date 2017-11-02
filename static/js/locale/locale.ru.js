@@ -1,0 +1,21 @@
+ru_RU = {
+    'IP address calculator':'Калькулятор IP адресов',
+    'Enter IPv4 address':'Введите IPv4 адрес',
+    'Enter CIDR':'Введите CIDR',
+    'Powered by':'Сделано ',
+    'Sinyawskiy':'Синявским',
+    'Attribute':'Параметр',
+    'Value':'Значение',
+    'Network class ':'Сеть класса ',
+    'Net IP':'IP сети',
+    'Netmask':'Маска',
+    'Wildcard':'Инв. маска',
+    'Min. IP':'Мин. IP',
+    'Max. IP':'Макс. IP',
+    'Broadcast':'Широковещ.',
+    'Config':'Конфиг.',
+    'BGP net':'BGP сеть',
+    'OSFP net':'OSFP сеть',
+    'Hosts count':'Кол.хостов',
+    'host': 'хост'
+};

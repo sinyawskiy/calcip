@@ -655,11 +655,18 @@ $(document).ready(function(){
         timestamp_source_handler = $('#timestamp_source'),
         timestamp_result_handler = $('#timestamp_result');
 
+    Calcip.get_date= function(date_item){
+        return date_item.getFullYear()+'-'+Calcip.Utils.padTo(''+date_item.getMonth()+1, 2)+'-'+Calcip.Utils.padTo(''+date_item.getDay(), 2)+' '+Calcip.Utils.padTo(''+date_item.getHours(),2)+':'+Calcip.Utils.padTo(''+date_item.getMinutes(),2)+':'+Calcip.Utils.padTo(''+date_item.getSeconds(),2);
+    };
+
     Calcip.timestamp_to_time = function(timestamp){
         var timestamp_reg = /^\d+$/, date_time;
         if(timestamp_reg.test(timestamp)){
+            if(timestamp.length<=10){
+                timestamp = parseInt(timestamp)*1000;
+            }
             var date_item = new Date(parseInt(timestamp));
-            return date_item.getFullYear()+'-'+Calcip.Utils.padTo(''+date_item.getMonth()+1, 2)+'-'+Calcip.Utils.padTo(''+date_item.getDay(), 2)+' '+Calcip.Utils.padTo(''+date_item.getHours(),2)+':'+Calcip.Utils.padTo(''+date_item.getMinutes(),2)+':'+Calcip.Utils.padTo(''+date_item.getSeconds(),2);
+            return Calcip.get_date(date_item);
         }else{
             return 'Не корректно '+timestamp;
         }
@@ -668,9 +675,9 @@ $(document).ready(function(){
     Calcip.time_to_timestamp = function(time){
         var time_regexp = /^\d{4}-\d{1,2}-\d{1,2} \d{1,2}:\d{1,2}:\d{1,2}$/;
         if(time_regexp.test(time)){
-            return Date.parse(time);
+            return parseInt(Date.parse(time)/1000);
         }else{
-            return 'Не корректно '+timestamp;
+            return 'Не корректно '+ time;
         }
     };
 
@@ -697,7 +704,11 @@ $(document).ready(function(){
         }
     });
 
-    timestamp_source_handler.val(new Date().getTime());
+    if(timestamp_mode_encode.is(':checked')){
+        timestamp_source_handler.val(parseInt(new Date().getTime()/1000));
+    }else if(timestamp_mode_decode.is(':checked')){
+        timestamp_source_handler.val(Calcip.get_date(new Date()));
+    }
 
     timestamp_mode_encode.click(function(){
         timestamp_button.trigger('click');

@@ -655,8 +655,8 @@ $(document).ready(function(){
         timestamp_source_handler = $('#timestamp_source'),
         timestamp_result_handler = $('#timestamp_result');
 
-    Calcip.get_date= function(date_item){
-        return date_item.getFullYear()+'-'+Calcip.Utils.padTo(''+(date_item.getMonth()+1), 2)+'-'+Calcip.Utils.padTo(''+date_item.getDay(), 2)+' '+Calcip.Utils.padTo(''+date_item.getHours(),2)+':'+Calcip.Utils.padTo(''+date_item.getMinutes(),2)+':'+Calcip.Utils.padTo(''+date_item.getSeconds(),2);
+    Calcip.get_date = function(date_item){
+        return date_item.getUTCFullYear()+'-'+Calcip.Utils.padTo(''+(date_item.getUTCMonth()+1), 2)+'-'+Calcip.Utils.padTo(''+date_item.getUTCDate(), 2)+' '+Calcip.Utils.padTo(''+date_item.getUTCHours(),2)+':'+Calcip.Utils.padTo(''+date_item.getUTCMinutes(),2)+':'+Calcip.Utils.padTo(''+date_item.getUTCSeconds(),2);
     };
 
     Calcip.timestamp_to_time = function(timestamp){

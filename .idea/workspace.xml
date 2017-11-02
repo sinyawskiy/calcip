@@ -11,7 +11,7 @@
     <file path="/calcip_core.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1408210487403" ignored="false" />
     <file path="db-console:/2c2f0fe6/9cce3f04-4ba2-4d9b-92e0-631e12bc5ac9/" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385969157007" ignored="false" />
     <file path="/Dummy.txt" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385989329286" ignored="false" />
-    <file path="/calcip.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1509610972956" ignored="false" />
+    <file path="/calcip.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1509613451439" ignored="false" />
     <file path="/calcip.css" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1427807864101" ignored="false" />
     <file path="/regexpForRange.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385906679780" ignored="false" />
     <file path="/a.dummy" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1419696032872" ignored="false" />
@@ -46,6 +46,7 @@
     <file path="$PROJECT_DIR$/../../aiscam2/project/annoying/functions.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1427785168941" ignored="false" />
     <file path="/functions.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1427785168000" ignored="false" />
     <file path="$PROJECT_DIR$/../../borzasekov/project/apps/contenteditor/models.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1509601018514" ignored="false" />
+    <file path="$PROJECT_DIR$/static/js/calcip.min.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1509612329114" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +69,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="47" selection-start="12731" selection-end="13226" vertical-scroll-proportion="-10.672728">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="178" column="47" selection-start="12731" selection-end="13226" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,7 +78,7 @@
       <file leaf-file-name="calcip.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/calcip.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="653" column="47" selection-start="26446" selection-end="26446" vertical-scroll-proportion="0.18996416">
+            <state line="674" column="46" selection-start="27427" selection-end="27427" vertical-scroll-proportion="0.5555556">
               <folding />
             </state>
           </provider>
@@ -118,7 +114,7 @@
       <file leaf-file-name="calcip.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calcip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="65" selection-start="504" selection-end="504" vertical-scroll-proportion="-6.0">
+            <state line="10" column="65" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,7 +132,7 @@
       <file leaf-file-name="calcip_core.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/calcip_core.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="14" selection-start="271" selection-end="283" vertical-scroll-proportion="-1.9354838">
+            <state line="10" column="14" selection-start="271" selection-end="283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -226,7 +222,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../med/project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -353,7 +349,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.370985" sideWeight="0.6701613" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11563169" sideWeight="0.6701613" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -434,6 +430,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/js/calcip_core.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="271" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/calcip_core.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="459" column="8" selection-start="19530" selection-end="19530" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -499,33 +502,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/calcip_core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="271" selection-end="283" vertical-scroll-proportion="-1.9354838">
+        <state line="10" column="14" selection-start="271" selection-end="283" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="47" selection-start="12731" selection-end="13226" vertical-scroll-proportion="-10.672728">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="178" column="47" selection-start="12731" selection-end="13226" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/calcip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="65" selection-start="504" selection-end="504" vertical-scroll-proportion="-6.0">
+        <state line="10" column="65" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/calcip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="653" column="47" selection-start="26446" selection-end="26446" vertical-scroll-proportion="0.18996416">
+        <state line="674" column="46" selection-start="27427" selection-end="27427" vertical-scroll-proportion="0.5555556">
           <folding />
         </state>
       </provider>

@@ -36,6 +36,9 @@ Calcip.T.resultMacTable =
         '</tbody>' +
     '</table>';
 
+Calcip.T.resultPropis =
+  '<div class="propis_result"><%= result %></div>';
+
 Calcip.calculate = function(ip_address, cidr){ // result = [Attr, value, HEX, BIN, INT]
     var ipArr = Calcip.Utils.calcNetworkIp(ip_address, cidr),
         broadcastArr = ipArr,
@@ -299,7 +302,8 @@ $(document).ready(function(){
         next_handler = $('#next'),
         last_handler = $('#last'),
         resultTableTemplate = _.template(Calcip.T.resultTable),
-        resultMacTableTemplate = _.template(Calcip.T.resultMacTable);
+        resultMacTableTemplate = _.template(Calcip.T.resultMacTable),
+        resultPropisTemplate = _.template(Calcip.T.resultPropis);
 
     function updateNeighboursNetworks(ip_val, cidr_val){
 //        console.log(Calcip.neighbours);
@@ -442,6 +446,21 @@ $(document).ready(function(){
         $('table.mac_result').remove();
         return false;
     });
+
+    var propis_button = $('#propis'),
+      propis_value_handler = $('#propis_value'),
+      propis_clear_button = $('#propis_clear');
+
+    propis_button.click(function(){
+        $(this).parent().after(resultPropisTemplate({result: Calcip.Propis.letters(propis_value_handler.val())}));
+    });
+
+    propis_clear_button.click(function(event){
+        $('#propis_form')[0].reset();
+        $('div.propis_result').remove();
+        return false;
+    });
+
 
     var base64_button = $('#base64'),
         base64_exchange_button=$('#base64_exchange'),
@@ -735,11 +754,13 @@ $(document).ready(function(){
         htpasswd_button_handler = $('#htpasswd_button'),
         password_button_handler = $('#password_button'),
         timestamp_button_handler = $('#timestamp_button'),
+        propis_button_handler = $('#propis_button'),
         ip_container_handler = $('#ip_container'),
         mac_container_handler = $('#mac_container'),
         base64_container_handler = $('#base64_container'),
         timestamp_container_handler = $('#timestamp_container'),
-        htpasswd_container_handler = $('#htpasswd_container');
+        htpasswd_container_handler = $('#htpasswd_container'),
+        propis_container_handler = $('#propis_container');
 
     ip_button_handler.click(function(){
         $(this).addClass('active');
@@ -753,6 +774,7 @@ $(document).ready(function(){
         base64_container_handler.hide();
         htpasswd_container_handler.hide();
         password_container_handler.hide();
+        propis_container_handler.hide();
         ip_container_handler.show();
     });
 
@@ -768,6 +790,7 @@ $(document).ready(function(){
         base64_container_handler.hide();
         htpasswd_container_handler.hide();
         password_container_handler.hide();
+        propis_container_handler.hide();
         mac_container_handler.show();
     });
 
@@ -783,6 +806,7 @@ $(document).ready(function(){
         mac_container_handler.hide();
         htpasswd_container_handler.hide();
         password_container_handler.hide();
+        propis_container_handler.hide();
         base64_container_handler.show();
     });
 
@@ -798,6 +822,7 @@ $(document).ready(function(){
         mac_container_handler.hide();
         base64_container_handler.hide();
         password_container_handler.hide();
+        propis_container_handler.hide();
         htpasswd_container_handler.show();
     });
 
@@ -813,6 +838,7 @@ $(document).ready(function(){
         mac_container_handler.hide();
         base64_container_handler.hide();
         htpasswd_container_handler.hide();
+        propis_container_handler.hide();
         password_container_handler.show();
     });
 
@@ -828,6 +854,23 @@ $(document).ready(function(){
         base64_container_handler.hide();
         htpasswd_container_handler.hide();
         password_container_handler.hide();
+        propis_container_handler.hide();
         timestamp_container_handler.show();
+    });
+
+    propis_button_handler.click(function(){
+        $(this).addClass('active');
+        mac_button_handler.removeClass('active');
+        ip_button_handler.removeClass('active');
+        base64_button_handler.removeClass('active');
+        htpasswd_button_handler.removeClass('active');
+        password_button_handler.removeClass('active');
+        ip_container_handler.hide();
+        mac_container_handler.hide();
+        base64_container_handler.hide();
+        htpasswd_container_handler.hide();
+        password_container_handler.hide();
+        timestamp_container_handler.hide();
+        propis_container_handler.show();
     });
 });

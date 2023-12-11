@@ -21,26 +21,26 @@ def compress_css(css):
 CONFIG = {
     'js':{
         'source': (
-	    ['calcip_app/static/js/jquery-2.1.1.js', True, True],
-            ['calcip_app/static/js/jquery.autocomplete.js',True,True],
-            ['calcip_app/static/js/underscore-min.js',True,True],
-            ['calcip_app/static/bootstrap/js/bootstrap.js',True,True],
-	    ['calcip_app/static/js/crypto/core.js',False,True],
-	    ['calcip_app/static/js/crypto/sha1.js',False,True],
-            ['calcip_app/static/js/crypto/md5.js',False,True],
-            ['calcip_app/static/js/crypto/php-crypt-md5.js',False,True],
-            ['calcip_app/static/js/crypto/enc-base64.js',False,True],
-            ['calcip_app/static/js/calcip_core.js',True,True],
-            ['calcip_app/static/js/calcip.js',True,True]
+	    ['static/js/jquery-2.1.1.js', True, True],
+            ['static/js/jquery.autocomplete.js',True,True],
+            ['static/js/underscore-min.js',True,True],
+            ['static/bootstrap/js/bootstrap.js',True,True],
+	    ['static/js/crypto/core.js',False,True],
+	    ['static/js/crypto/sha1.js',False,True],
+            ['static/js/crypto/md5.js',False,True],
+            ['static/js/crypto/php-crypt-md5.js',False,True],
+            ['static/js/crypto/enc-base64.js',False,True],
+            ['static/js/calcip_core.js',True,True],
+            ['static/js/calcip.js',True,True]
         ),
-        'output': 'calcip_app/static/js/calcip.min.js',
+        'output': 'static/js/calcip.min.js',
     },
     'css':{
         'source': (
-            'calcip_app/static/bootstrap/css/bootstrap.css',
-            'calcip_app/static/css/calcip.css'
+            'static/bootstrap/css/bootstrap.css',
+            'static/css/calcip.css'
         ),
-        'output': 'calcip_app/static/css/calcip.min.css'
+        'output': 'static/css/calcip.min.css'
     }
 }
 with open(CONFIG['js']['output'], 'w') as js_min_file:

@@ -26,6 +26,7 @@
                     <li id="htpasswd_button"><a href="javascript:void(0);" title="Создание файла .htpasswd">Создание файла .htpasswd</a></li>
                     <li id="password_button"><a href="javascript:void(0);" title="Генератор паролей">Генератор паролей</a></li>
                     <li id="timestamp_button"><a href="javascript:void(0);" title="Timestamp конвертор">Timestamp конвертор</a></li>
+                    <li id="propis_button"><a href="javascript:void(0);" title="Цифры прописью">Цифры прописью</a></li>
                 </ul>
 		    <div id="ip_address"></div>
             </div>
@@ -158,6 +159,19 @@
                             <div class="btn btn-primary inline" id="timestamp">Конвертировать</div>
                         </div>
                         <textarea id="timestamp_result" maxlength="10" rows="4" class="span9" disabled="disabled" placeholder="Результат"></textarea>
+                    </form>
+                </div>
+                <div class="container" id="propis_container" style="display:none;">
+                    <div class="page-header span8">
+                        <h1>Цифры прописью</h1>
+                    </div>
+                    <div class="fb span1"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcalcip.ru%2F"><img src="static/img/fb_like_icon.svg" title="Я рекомендую"></a></div>
+                    <form class="form-inline" id="propis_form">
+                        <div class="input-prepend propis input-append">
+                            <input id="propis_value" type="text" class="input-small" value="" placeholder="Введите целое или дробное число">
+                            <div class="btn propis" id="propis_clear">Очистить</div>
+                        </div>
+                        <div class="btn btn-primary" id="propis">Прописью</div>
                     </form>
                 </div>
             </div>

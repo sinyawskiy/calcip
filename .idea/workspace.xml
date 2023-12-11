@@ -1,149 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/index.html" line="148" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" name="Default" comment="" />
-    <ignored path="calcip_project.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1509606382035" ignored="false" />
-    <file path="/calcip_core.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1408210487403" ignored="false" />
-    <file path="db-console:/2c2f0fe6/9cce3f04-4ba2-4d9b-92e0-631e12bc5ac9/" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385969157007" ignored="false" />
-    <file path="/Dummy.txt" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385989329286" ignored="false" />
-    <file path="/calcip.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1509613451439" ignored="false" />
-    <file path="/calcip.css" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1427807864101" ignored="false" />
-    <file path="/regexpForRange.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385906679780" ignored="false" />
-    <file path="/a.dummy" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1419696032872" ignored="false" />
-    <file path="/*.regexp" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385985996464" ignored="false" />
-    <file path="/*.txt" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986021856" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/bik/management/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986030164" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/bik/management/commands/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986030800" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/building_orders/management/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986031261" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/cards/management/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986031554" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/building_orders/management/commands/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986031554" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/connection/management/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986031971" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/cards/management/commands/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986031971" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/contractors/management/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986032373" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/connection/management/commands/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986032373" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/contractors/management/commands/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986032838" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/info_terminals/management/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986032838" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/info_terminals/management/commands/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986033186" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/monitoring/management/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986033186" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/monitoring/management/commands/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986033535" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/notification_mails/management/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986033535" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/notification_mails/management/commands/__init__.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385986033877" ignored="false" />
-    <file path="$PROJECT_DIR$/../objects_project/objects/objects/pipeline_settings.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385988041264" ignored="false" />
-    <file path="/pipeline_settings.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385987758944" ignored="false" />
-    <file path="/publish.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385990093715" ignored="false" />
-    <file path="/robots.txt" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1385997347271" ignored="false" />
-    <file path="$PROJECT_DIR$/../../objects_project/objects/static/js/communication_object.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1386063698359" ignored="false" />
-    <file path="/communication_object.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1386063697120" ignored="false" />
-    <file path="/locale.ru.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1386430967833" ignored="false" />
-    <file path="/.htaccess" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1389124420145" ignored="false" />
-    <file path="/calcip.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1412192854370" ignored="false" />
-    <file path="$PROJECT_DIR$/../../greenjester/source/pelicanconf.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1419693467024" ignored="false" />
-    <file path="$PROJECT_DIR$/../../aiscam2/project/annoying/functions.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1427785168941" ignored="false" />
-    <file path="/functions.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1427785168000" ignored="false" />
-    <file path="$PROJECT_DIR$/../../borzasekov/project/apps/contenteditor/models.py" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1509601018514" ignored="false" />
-    <file path="$PROJECT_DIR$/static/js/calcip.min.js" changelist="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" time="1509612329114" ignored="false" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publish.py" beforeDir="false" afterPath="$PROJECT_DIR$/publish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/calcip.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/calcip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/calcip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/calcip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/calcip_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/calcip_core.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="calcip_project" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="178" column="47" selection-start="12731" selection-end="13226" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calcip.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/js/calcip.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="674" column="46" selection-start="27427" selection-end="27427" vertical-scroll-proportion="0.5555556">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-2.1.1.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/jquery-2.1.1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sha1.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/crypto/sha1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calcip.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/calcip.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="10" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calcip.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calcip.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="65" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="md5.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/crypto/md5.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calcip_core.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/calcip_core.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="14" selection-start="271" selection-end="283" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -166,21 +53,19 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
     <option name="width" value="1920" />
     <option name="height" value="1032" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectId" id="28bXmAR1r2D0lHXBEFKrNrjyQUT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -220,23 +105,23 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <PyConsoleSettings />
-    </option>
-    <option name="myDjangoConsoleState">
-      <PyConsoleSettings />
-    </option>
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/als/Projects/calcip/project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/js" />
@@ -245,50 +130,11 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/static/js" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="calcip_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="calcip_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
@@ -296,29 +142,8 @@
       </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="calcip_project" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <list size="0" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -340,7 +165,11 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" name="Default" comment="" />
       <created>1385837314676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1385837314676</updated>
+      <workItem from="1651486417490" duration="1309000" />
+      <workItem from="1702290644558" duration="3219000" />
     </task>
     <servers />
   </component>
@@ -367,65 +196,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="true" />
-    <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
-    </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
     <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/static/js/calcip_core.js">
@@ -530,4 +306,3 @@
     </entry>
   </component>
 </project>
-

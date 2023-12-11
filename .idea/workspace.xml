@@ -8,13 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cb2f6b4-c5ab-497a-b885-3275fc0ed341" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publish.py" beforeDir="false" afterPath="$PROJECT_DIR$/publish.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/calcip.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/calcip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/calcip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/calcip.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/calcip_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/calcip_core.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1385837314676</updated>
       <workItem from="1651486417490" duration="1309000" />
-      <workItem from="1702290644558" duration="3219000" />
+      <workItem from="1702290644558" duration="4090000" />
     </task>
     <servers />
   </component>

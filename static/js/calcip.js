@@ -769,6 +769,7 @@ $(document).ready(function(){
         htpasswd_button_handler.removeClass('active');
         password_button_handler.removeClass('active');
         timestamp_button_handler.removeClass('active');
+        propis_button_handler.removeClass('active');
         timestamp_container_handler.hide();
         mac_container_handler.hide();
         base64_container_handler.hide();
@@ -785,6 +786,7 @@ $(document).ready(function(){
         htpasswd_button_handler.removeClass('active');
         password_button_handler.removeClass('active');
         timestamp_button_handler.removeClass('active');
+        propis_button_handler.removeClass('active');
         timestamp_container_handler.hide();
         ip_container_handler.hide();
         base64_container_handler.hide();
@@ -801,6 +803,7 @@ $(document).ready(function(){
         htpasswd_button_handler.removeClass('active');
         password_button_handler.removeClass('active');
         timestamp_button_handler.removeClass('active');
+        propis_button_handler.removeClass('active');
         timestamp_container_handler.hide();
         ip_container_handler.hide();
         mac_container_handler.hide();
@@ -817,6 +820,7 @@ $(document).ready(function(){
         base64_button_handler.removeClass('active');
         password_button_handler.removeClass('active');
         timestamp_button_handler.removeClass('active');
+        propis_button_handler.removeClass('active');
         timestamp_container_handler.hide();
         ip_container_handler.hide();
         mac_container_handler.hide();
@@ -833,6 +837,7 @@ $(document).ready(function(){
         base64_button_handler.removeClass('active');
         htpasswd_button_handler.removeClass('active');
         timestamp_button_handler.removeClass('active');
+        propis_button_handler.removeClass('active');
         timestamp_container_handler.hide();
         ip_container_handler.hide();
         mac_container_handler.hide();
@@ -849,6 +854,7 @@ $(document).ready(function(){
         base64_button_handler.removeClass('active');
         htpasswd_button_handler.removeClass('active');
         password_button_handler.removeClass('active');
+        propis_button_handler.removeClass('active');
         ip_container_handler.hide();
         mac_container_handler.hide();
         base64_container_handler.hide();
@@ -865,6 +871,7 @@ $(document).ready(function(){
         base64_button_handler.removeClass('active');
         htpasswd_button_handler.removeClass('active');
         password_button_handler.removeClass('active');
+        timestamp_button_handler.removeClass('active');
         ip_container_handler.hide();
         mac_container_handler.hide();
         base64_container_handler.hide();
